@@ -1,0 +1,42 @@
+.center{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.inline-block > *{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.transition{
+    -webkit-transition: 150ms all linear 0s;
+       -moz-transition: 150ms all linear 0s;
+         -o-transition: 150ms all linear 0s;
+            transition: 150ms all linear 0s;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.toggle-element{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.overflow{
+    overflow: hidden;
+    display: block;
+}
